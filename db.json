@@ -1,14 +1,41 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "images": [
+    {
+      "id": 1,
+      "name": "Name of image 1",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum temporibus nulla sapiente fuga aspernatur dolorem, ut reiciendis iure hic earum fugiat nostrum est accusamus debitis error commodi consequatur similique assumenda?",
+      "src": "image(1).jpg",
+      "loves": 0,
+      "clicks": 0,
+      "votes": 0
+    },
+    {
+      "id": 2,
+      "name": "Name of image 2",
+      "content": "Soluta, architecto amet eveniet consectetur alias deserunt veniam explicabo beatae ad ab adipisci reiciendis corporis magni labore, aliquam itaque eos quo rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "src": "image(2).jpg",
+      "loves": 0,
+      "clicks": 0,
+      "votes": 0
+    },
+    {
+      "id": 3,
+      "name": "Name of image 3",
+      "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum temporibus nulla sapiente fuga aspernatur dolorem, ut reiciendis iure hic earum fugiat nostrum est accusamus debitis error commodi consequatur similique assumenda?",
+      "src": "image(3).jpg",
+      "loves": 0,
+      "clicks": 0,
+      "votes": 0
+    },
+    // ... (data for other images truncated for brevity)
+    {
+      "id": 30,
+      "name": "Name of image 30",
+      "content": "Soluta, architecto amet eveniet consectetur alias deserunt veniam explicabo beatae ad ab adipisci reiciendis corporis magni labore, aliquam itaque eos quo rem? Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "src": "image(30).jpg",
+      "loves": 0,
+      "clicks": 0,
+      "votes": 0
+    }
+  ]
 }
